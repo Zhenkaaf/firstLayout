@@ -3,9 +3,7 @@ $(document).ready(function(){
         dots: true,
         autoplay: true,
     });
-});
-
-const iconMenu = document.querySelector('.menu__icon');
+    const iconMenu = document.querySelector('.menu__icon');
 const menuBody = document.querySelector('.menu__body');
 const page = document.querySelector('.page');
 const pageTitle = document.querySelector('.page__title');
@@ -17,3 +15,6 @@ iconMenu.addEventListener('click', function(event) {
     pageTitle.classList.toggle('_active');
 
 });
+});
+
+
